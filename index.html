@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100e"><meta name="description" content="NOIRÉ — considered clothing for a life well dressed. Discover modern tailoring, essentials and occasionwear.">
+  <title>NOIRÉ — A Study in Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>Complimentary delivery on orders over PKR 15,000</span><span class="announce-right">A NEW PERSPECTIVE ON EVERYDAY LUXURY <span class="gold">✳</span></span></div>
+  <header class="site-header" id="top">
+    <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" id="menuToggle"><span></span><span></span></button>
+    <a class="wordmark" href="#home" aria-label="NOIRÉ home">NOIR<span>É</span><small>STUDIO / 001</small></a>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#shop">Shop all</a><a class="nav-link" href="#story">Our story</a><a class="nav-link" href="#journal">Journal</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-open" aria-label="Search products" id="searchOpen"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+      <button class="icon-btn account-btn" aria-label="Account" id="accountButton"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M4.8 20c.5-4 3.1-6 7.2-6s6.7 2 7.2 6"/></svg></button>
+      <button class="cart-trigger" id="cartOpen" aria-label="Open shopping bag"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span>Bag</span><b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME VIEW -->
+    <section class="page active" data-page="home" id="homePage">
+      <section class="hero" aria-label="NOIRÉ new season campaign">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> THE AUTUMN / WINTER EDIT 2026</div>
+          <h1>Quietly<br><em>unforgettable.</em></h1>
+          <p class="hero-sub">Thoughtful pieces. Exceptional texture.<br>Style that speaks without saying a word.</p>
+          <div class="hero-buttons"><a class="btn btn-gold" href="#shop">Explore the collection <span>↗</span></a><a class="text-link" href="#story">Discover NOIRÉ <span>→</span></a></div>
+          <div class="hero-index"><b>01</b><span class="index-rule"></span><span>FORM / FEEL / FOREVER</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-wrap"><img class="hero-photo" src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1500&q=88" alt="Model wearing refined modern tailoring" fetchpriority="high"><div class="photo-shade"></div></div>
+          <div class="hero-vertical">DESIGNED TO BE LIVED IN — LAHORE / EVERYWHERE</div>
+          <div class="hero-stamp"><span>THE</span><strong>NOIRÉ</strong><span>STANDARD</span><i>✳</i></div>
+          <div class="hero-caption"><span>THE SIGNATURE BLAZER</span><b>PKR 18,900</b><a href="#shop" aria-label="Shop signature blazer">↗</a></div>
+          <div class="hero-number">Nº 06</div>
+        </div>
+        <div class="hero-bottom-note"><span>CRAFTED WITH INTENTION</span><span>SCROLL TO DISCOVER ↓</span></div>
+      </section>
+
+      <section class="ticker" aria-label="Brand values"><div class="ticker-track"><span>LESS, BUT BETTER</span><i>✳</i><span>MADE FOR THE MOMENT</span><i>✳</i><span>THE ART OF GETTING DRESSED</span><i>✳</i><span>LESS, BUT BETTER</span><i>✳</i><span>MADE FOR THE MOMENT</span><i>✳</i><span>THE ART OF GETTING DRESSED</span><i>✳</i></div></section>
+
+      <section class="section collection-section" id="collections">
+        <div class="section-head reveal"><div><div class="eyebrow dark-eyebrow">A WARDROBE, RECONSIDERED</div><h2>Find your <em>form.</em></h2></div><a class="text-link dark-link" href="#shop">View all collections <span>↗</span></a></div>
+        <div class="category-grid">
+          <a class="category-card category-men reveal" href="#shop" data-category-link="Men"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85" alt="Contemporary menswear editorial" loading="lazy"><span class="category-overlay"></span><div class="category-meta"><span>01 / FOR HIM</span><b>Modern <em>man.</em></b><span class="category-cta">SHOP MEN ↗</span></div></a>
+          <a class="category-card category-women reveal" href="#shop" data-category-link="Women"><img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85" alt="Elegant contemporary womenswear editorial" loading="lazy"><span class="category-overlay"></span><div class="category-meta"><span>02 / FOR HER</span><b>Own your <em>presence.</em></b><span class="category-cta">SHOP WOMEN ↗</span></div></a>
+          <a class="category-card category-essentials reveal" href="#shop" data-category-link="Essentials"><img src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=85" alt="Thoughtfully arranged wardrobe essentials" loading="lazy"><span class="category-overlay"></span><div class="category-meta"><span>03 / EVERY DAY, ELEVATED</span><b>The <em>essentials.</em></b><span class="category-cta">EXPLORE ESSENTIALS ↗</span></div></a>
+        </div>
+      </section>
+
+      <section class="featured-section" id="featured">
+        <div class="featured-intro reveal"><div class="eyebrow">THE PIECES YOU'LL KEEP</div><h2>Considered.<br><em>Collected.</em></h2><p>Meet the signatures that make getting dressed feel like second nature.</p><a class="btn btn-outline-light" href="#shop">Shop the edit <span>↗</span></a><div class="featured-mark">N<span>.</span></div></div>
+        <div class="featured-products-area"><div class="section-head featured-head reveal"><div><div class="eyebrow">THE NOIRÉ SELECTION</div><h3>Current <em>favourites</em></h3></div><div class="product-arrows"><button class="round-arrow" id="featuredPrev" aria-label="Previous products">←</button><button class="round-arrow" id="featuredNext" aria-label="Next products">→</button></div></div><div class="product-grid featured-grid" id="featuredGrid"></div></div>
+      </section>
+
+      <section class="manifesto-section reveal" id="manifesto"><div class="manifesto-art"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85" alt="Fashion editorial on personal style" loading="lazy"><div class="manifesto-side">A DIFFERENT KIND OF STATEMENT</div></div><div class="manifesto-copy"><div class="eyebrow dark-eyebrow">THE NOIRÉ POINT OF VIEW</div><h2>Good style is<br>never <em>loud.</em></h2><p>We believe the best wardrobe isn't the biggest. It's the one that feels unmistakably yours. Thoughtful silhouettes, tactile fabrics and a little room for individuality.</p><a class="text-link dark-link" href="#story">Get to know us <span>↗</span></a><div class="signature">Wear what<br><em>moves you.</em><span>— The NOIRÉ Studio</span></div></div></section>
+      <section class="newsletter-section"><div class="newsletter-copy"><div class="eyebrow">A NOTE FROM NOIRÉ</div><h2>Good things,<br><em>occasionally.</em></h2><p>New collections, thoughtful styling and stories worth opening. No noise.</p></div><form id="newsletterForm" class="newsletter-form"><label for="newsletterEmail">YOUR EMAIL ADDRESS</label><div class="newsletter-input"><input type="email" id="newsletterEmail" placeholder="you@example.com" required><button aria-label="Subscribe to newsletter" type="submit">JOIN THE LIST <span>↗</span></button></div><small>By subscribing, you agree to receive occasional notes from NOIRÉ.</small><p class="form-message" id="newsletterMessage" role="status"></p></form></section>
+    </section>
+
+    <!-- SHOP VIEW -->
+    <section class="page shop-page" data-page="shop" id="shopPage">
+      <div class="shop-banner"><div class="eyebrow">THE FULL COLLECTION / Nº 001—026</div><h1>Pieces with <em>presence.</em></h1><p>Considered fashion for every version of you.</p><div class="shop-banner-orbit">N<span>✳</span></div></div>
+      <div class="shop-toolbar"><div class="filter-tabs" id="filterTabs"><button class="filter-tab active" data-filter="All">All pieces <span>08</span></button><button class="filter-tab" data-filter="Men">Men</button><button class="filter-tab" data-filter="Women">Women</button><button class="filter-tab" data-filter="Essentials">Essentials</button><button class="filter-tab" data-filter="Accessories">Accessories</button></div><div class="shop-tools"><span id="resultCount">08 pieces</span><select id="sortSelect" aria-label="Sort products"><option value="featured">Sort: Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option><option value="name">Name: A to Z</option></select></div></div>
+      <div class="shop-content"><aside class="shop-aside"><div class="aside-title">THE DETAILS <span>+</span></div><p>Less trend. More timeless.</p><div class="aside-note"><span class="aside-line"></span><strong>NOIRÉ / 001</strong><small>Designed to be worn.<br>Made to be remembered.</small></div><div class="aside-image"><img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=80" alt="Detail of a refined outerwear piece" loading="lazy"></div></aside><div class="product-grid shop-grid" id="shopGrid"></div></div>
+    </section>
+
+    <!-- STORY VIEW -->
+    <section class="page story-page" data-page="story" id="storyPage"><div class="story-hero"><div class="eyebrow">A SMALL INTRODUCTION</div><h1>Style, with a<br><em>point of view.</em></h1><p>We make considered clothing for people who know that how you feel matters as much as how you look.</p><div class="story-hero-img"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=85" alt="Fashion models in a modern editorial" loading="lazy"></div></div><div class="story-body"><div class="eyebrow dark-eyebrow">OUR PHILOSOPHY</div><h2>Not more clothes.<br><em>More meaning.</em></h2><div class="story-columns"><p>NOIRÉ began with a simple thought: the pieces we reach for most are rarely the loudest. They are the ones that fit just right, feel beautiful on the skin, and make us a little more ourselves.</p><p>We bring together modern silhouettes, honest detail and a palette that lives easily in your wardrobe. Our approach is less about chasing a moment and more about building a personal uniform that moves with you.</p></div><div class="values-grid"><div><span>01</span><h3>Intention</h3><p>Every detail has a reason to be there.</p></div><div><span>02</span><h3>Individuality</h3><p>Style should feel personal, never prescribed.</p></div><div><span>03</span><h3>Longevity</h3><p>Pieces to return to, season after season.</p></div></div></div></section>
+
+    <!-- JOURNAL VIEW -->
+    <section class="page journal-page" data-page="journal" id="journalPage"><div class="journal-head"><div class="eyebrow">NOTES ON GETTING DRESSED</div><h1>The style <em>journal.</em></h1><p>Little observations on personal style, good design and everyday rituals.</p></div><div class="journal-grid"><article class="journal-card"><div class="journal-img"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85" alt="Modern outfit inspiration" loading="lazy"><span>STYLE NOTES / 01</span></div><div class="journal-meta">5 MIN READ <span>—</span> STYLE</div><h2>The case for a personal uniform</h2><p>Getting dressed becomes easier when every piece feels like you.</p><a href="#contact" class="text-link dark-link">Read the note <span>↗</span></a></article><article class="journal-card"><div class="journal-img"><img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=85" alt="Wardrobe pieces and styling" loading="lazy"><span>THE DETAILS / 02</span></div><div class="journal-meta">4 MIN READ <span>—</span> CRAFT</div><h2>Texture tells a story</h2><p>How the feel of a fabric changes the way a piece lives.</p><a href="#contact" class="text-link dark-link">Read the note <span>↗</span></a></article><article class="journal-card"><div class="journal-img"><img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=900&q=85" alt="Minimal wardrobe and garments" loading="lazy"><span>THE EDIT / 03</span></div><div class="journal-meta">3 MIN READ <span>—</span> WARDROBE</div><h2>Less, but better</h2><p>A quieter way to think about building your everyday wardrobe.</p><a href="#contact" class="text-link dark-link">Read the note <span>↗</span></a></article></div></section>
+
+    <!-- CONTACT VIEW -->
+    <section class="page contact-page" data-page="contact" id="contactPage"><div class="contact-wrap"><div class="eyebrow">WE'RE HAPPY YOU'RE HERE</div><h1>Let's <em>talk.</em></h1><p>Questions about a piece, styling or an order? Drop us a note and we'll get back to you.</p><div class="contact-details"><div><span>EMAIL</span><b>hello@noire.example</b></div><div><span>STUDIO HOURS</span><b>Monday — Saturday / 10:00–18:00</b></div><div><span>BASED IN</span><b>Lahore, Pakistan</b></div></div></div><form class="contact-form" id="contactForm"><label for="contactName">YOUR NAME</label><input id="contactName" placeholder="Full name" required><label for="contactEmail">EMAIL ADDRESS</label><input id="contactEmail" type="email" placeholder="you@example.com" required><label for="contactTopic">WHAT'S THIS ABOUT?</label><select id="contactTopic"><option>Product enquiry</option><option>Order support</option><option>Styling question</option><option>Something else</option></select><label for="contactMessage">YOUR MESSAGE</label><textarea id="contactMessage" rows="4" placeholder="Tell us a little more..." required></textarea><button type="submit" class="btn btn-gold">Send your note <span>↗</span></button><p class="form-message" id="contactMessageStatus" role="status"></p></form></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><div class="footer-brand"><a class="wordmark footer-wordmark" href="#home">NOIR<span>É</span><small>STUDIO / 001</small></a><p>Considered clothing.<br>Unmistakably you.</p><div class="social-links"><a href="#contact" aria-label="Instagram">IG ↗</a><a href="#contact" aria-label="Pinterest">PIN ↗</a><a href="#contact" aria-label="TikTok">TT ↗</a></div></div><div class="footer-col"><span>EXPLORE</span><a href="#shop">Shop all</a><a href="#shop">New arrivals</a><a href="#shop">Men</a><a href="#shop">Women</a></div><div class="footer-col"><span>NOIRÉ</span><a href="#story">Our story</a><a href="#journal">Journal</a><a href="#contact">Contact</a><a href="#contact">FAQs & support</a></div><div class="footer-note"><div class="eyebrow">A NOTE TO KEEP</div><p>Buy less. Choose well.<br>Make it yours.</p><span>EST. 2026 — LAHORE</span></div></div><div class="footer-bottom"><span>© 2026 NOIRÉ STUDIO. A CONCEPT STORE.</span><span>MADE WITH INTENTION <i>✳</i></span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+  <!-- SEARCH OVERLAY -->
+  <div class="overlay search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><button class="close-btn" id="searchClose" aria-label="Close search">×</button><div class="eyebrow dark-eyebrow">LOOKING FOR SOMETHING?</div><h2>Search NOIRÉ.</h2><div class="search-field"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="searchInput" type="search" placeholder="Try ‘blazer’ or ‘essentials’" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div><div class="search-results" id="searchResults"></div></div></div>
+
+  <!-- QUICK VIEW MODAL -->
+  <div class="overlay" id="quickViewOverlay" aria-hidden="true"><div class="quick-view-panel" role="dialog" aria-modal="true" aria-label="Product quick view"><button class="close-btn" id="quickViewClose" aria-label="Close product view">×</button><div id="quickViewContent"></div></div></div>
+
+  <!-- CART DRAWER -->
+  <div class="drawer-scrim" id="drawerScrim"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><div><div class="eyebrow dark-eyebrow">YOUR PICKS, SO FAR</div><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-btn" id="cartClose" aria-label="Close shopping bag">×</button></div><div class="shipping-progress"><p id="shippingMessage">You're PKR 15,000 away from complimentary delivery.</p><div class="progress-track"><span id="shippingProgress"></span></div></div><div id="cartItems" class="cart-items"></div><div class="cart-empty" id="cartEmpty"><div class="empty-bag">N<span>✳</span></div><h3>A little room for something good.</h3><p>Your bag is currently empty.</p><button class="btn btn-dark" id="continueShopping">Explore the collection <span>↗</span></button></div><div class="drawer-bottom" id="drawerBottom"><div class="subtotal-row"><span>Subtotal</span><strong id="cartSubtotal">PKR 0</strong></div><small>Delivery and any applicable charges are calculated at checkout.</small><button class="btn btn-gold checkout-btn" id="checkoutButton">Continue to checkout <span>↗</span></button><p class="checkout-note">Demo storefront · no payment is taken</p></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
